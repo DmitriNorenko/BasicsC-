@@ -10,7 +10,7 @@ namespace BasicsC_
     {
         static void Main(string[] args)
         {
-            string MyName = "Dmitry";
+            const string MyName = "Dmitry";
             Console.WriteLine(MyName);
             Console.ReadKey();
         }
