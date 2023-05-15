@@ -15,6 +15,7 @@ namespace BasicsC_
             Console.WriteLine("Привет,Мир!\n");
             Console.WriteLine("\tМне 21 год.");
             Console.WriteLine($"Меня зовут {MyName}.");
+            Console.WriteLine("\u0023");
             Console.ReadKey();
         }
     }
