@@ -24,6 +24,8 @@ namespace BasicsC_
             Console.WriteLine($"Мне {age} год.");
             Console.WriteLine($"Есть ли у меня питомец? {HaveIApet}");
             Console.WriteLine($"Мой размер ноги " + MyShoeSize);
+            Console.WriteLine("ByteMin {0}", byte.MinValue);
+            Console.WriteLine("ByteMax {0}", byte.MaxValue);
             Console.ReadKey();
         }
     }
