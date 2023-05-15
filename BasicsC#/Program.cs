@@ -23,7 +23,7 @@ namespace BasicsC_
             Console.WriteLine($"Меня зовут {MyName}.");
             Console.WriteLine($"Мне {age} год.");
             Console.WriteLine($"Есть ли у меня питомец? {HaveIApet}");
-            Console.WriteLine($"Мой размер ноги" + MyShoeSize);
+            Console.WriteLine($"Мой размер ноги " + MyShoeSize);
             Console.ReadKey();
         }
     }
