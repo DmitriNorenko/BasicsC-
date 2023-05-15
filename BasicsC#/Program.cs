@@ -12,6 +12,9 @@ namespace BasicsC_
         {
             const string MyName = "Dmitry";
             Console.WriteLine(MyName);
+            Console.WriteLine("Привет,Мир!");
+            Console.WriteLine("Мне 21 год.");
+            Console.WriteLine($"Меня зовут {MyName}.");
             Console.ReadKey();
         }
     }
