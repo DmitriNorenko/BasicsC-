@@ -16,6 +16,11 @@ namespace BasicsC_
             Console.WriteLine("\tМне 21 год.");
             Console.WriteLine($"Меня зовут {MyName}.");
             Console.WriteLine("\u0023");
+            Console.WriteLine("Анкета.");
+            Console.WriteLine($"Меня зовут {MyName}.");
+            Console.WriteLine("Мне 21 год.");
+            Console.WriteLine("Есть ли у меня питомец? True");
+            Console.WriteLine("Мой размер ноги 43");
             Console.ReadKey();
         }
     }
