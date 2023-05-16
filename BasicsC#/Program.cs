@@ -30,9 +30,10 @@ namespace BasicsC_
             Console.WriteLine("\tПривет,\n мир!");
             Console.WriteLine($"Мой возраст {age}");
             Console.WriteLine("{0}\n{1}\n{2}", HaveIApet, age, MyShoeSize);
-            double result = 5.00 / 2;
+            double result = 5.0 / 2.0;
             Console.WriteLine("5 / 2 = {0}", result);
             string str = Console.ReadLine();
+            Console.WriteLine(str);
             Console.ReadKey();
         }
         enum DaysOfWeek : byte
