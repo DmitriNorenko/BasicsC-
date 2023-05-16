@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace BasicsC_
 {
@@ -26,6 +27,12 @@ namespace BasicsC_
             Console.WriteLine($"Мой размер ноги " + MyShoeSize);
             Console.WriteLine("ByteMin {0}", byte.MinValue);
             Console.WriteLine("ByteMax {0}", byte.MaxValue);
+            Console.WriteLine("\tПривет,\n мир!");
+            Console.WriteLine($"Мой возраст {age}");
+            Console.WriteLine("{0}\n{1}\n{2}", HaveIApet, age, MyShoeSize);
+            double result = 5.00 / 2;
+            Console.WriteLine("5 / 2 = {0}", result);
+            string str = Console.ReadLine();
             Console.ReadKey();
         }
         enum DaysOfWeek : byte
