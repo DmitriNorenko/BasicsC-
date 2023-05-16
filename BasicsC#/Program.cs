@@ -28,5 +28,15 @@ namespace BasicsC_
             Console.WriteLine("ByteMax {0}", byte.MaxValue);
             Console.ReadKey();
         }
+        enum DaysOfWeek : byte
+        {
+            Monday = 1,
+            Tuesday,
+            Wednesday,
+            Thursday,
+            Friday,
+            Saturday,
+            Sunday
+        }
     }
 }
