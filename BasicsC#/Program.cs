@@ -32,6 +32,8 @@ namespace BasicsC_
             Console.WriteLine("{0}\n{1}\n{2}", HaveIApet, age, MyShoeSize);
             double result = 5.0 / 2.0;
             Console.WriteLine("5 / 2 = {0}", result);
+            DaysOfWeek day = (DaysOfWeek) int.Parse(Console.ReadLine());
+            Console.WriteLine(day);
             string str = Console.ReadLine();
             Console.WriteLine(str);
             Console.ReadKey();
